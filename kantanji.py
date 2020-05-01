@@ -6,12 +6,12 @@ from kanjilist import *
 num = 0
 
 while num < len(kanji1):
-    print(kanji1[num][0] + ' means ' + kanji1[num][1] + ' and has ' + kanji1[num][2] + ' stroke(s).\n' + 'Kun reading(s) ' + kanji1[num][3] + '\nOn reading(s) ' + kanji1[num][4])
-    print('Learning Japanese? Free resources at Jamaipanese.com')
+    print(kanji1[num][0] + ' means ' + kanji1[num][1] + ' and has ' + kanji1[num][2] + ' stroke(s)\n' + 'Kun reading(s) ' + kanji1[num][3] + '\nOn reading(s) ' + kanji1[num][4])
+    print('#Japanese #JLPT #日本語 #漢字')
     print('\n')
     num += 1
     if num == len(kanji1):
-        print ('all Kanji printed')
+        print ('all ' + str(num) + ' Kanji printed')
 
 
 ##https://automatetheboringstuff.com/
